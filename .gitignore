@@ -1,0 +1,14 @@
+# private material and build output — never commit
+private-content/
+dist/
+*.agristudy
+
+# tooling/session artifacts
+.superpowers/
+artifacts/
+.DS_Store
+node_modules/
+
+# scanned textbook / past exams (private)
+スキャンデータ/
+*.pdf

@@ -1,0 +1,13 @@
+{
+  "name": "agri-study-pwa",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Personal offline-first PWA for agriculture exam study",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:browser": "node tests/browser-check.mjs"
+  }
+}
